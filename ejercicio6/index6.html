@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio6</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<script src="javascript6.js"></script>
+<body>
+    <div id="caja">
+        <form id="form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <br><br>
+            <label for="edad">Edad (años):</label>
+            <input type="number" id="edad" name="edad" required>
+            <br><br>
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" name="altura" required>
+            <br><br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            <button type="button" onclick="validarFormulario()">Enviar</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
